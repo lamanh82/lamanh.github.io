@@ -1,0 +1,26 @@
+body {
+    background-color: gray;
+    font-family: ''Courier New', Courier, monospace';
+    color: white;
+}
+
+h1, h3 {
+    color: rgba(0, 225, 255, 0.397);
+}
+
+strong {
+    color: yellow;
+}
+
+#favorite_para {
+    font-style: italic;
+}
+
+a {
+    color: red;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
