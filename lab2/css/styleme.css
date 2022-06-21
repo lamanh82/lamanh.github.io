@@ -17,7 +17,7 @@ strong {
     font-style: italic;
 }
 
-a {
+li > a {
     color: red;
 }
 
@@ -29,5 +29,4 @@ img {
 a > img {
     width: 88px;
     height: 31px;
-    color: gray;
 }
