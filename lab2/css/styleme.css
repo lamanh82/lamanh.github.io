@@ -25,3 +25,9 @@ img {
     width: 300px;
     height: 300px;
 }
+
+a > img {
+    width: 88px;
+    height: 31px;
+    color: gray;
+}
