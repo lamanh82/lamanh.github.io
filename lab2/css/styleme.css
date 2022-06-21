@@ -17,8 +17,13 @@ strong {
     font-style: italic;
 }
 
-li > a {
+li  a {
     color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 img {
@@ -29,4 +34,33 @@ img {
 a > img {
     width: 88px;
     height: 31px;
+}
+
+p::first-letter {
+    font-size: 150%;
+}
+
+div > div {
+    padding-left: 50px;
+}
+
+span {
+    color: yellow;
+    font-weight: bold;
+}
+
+#description {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+ol { 
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+ol > li {
+    flex: 0 0 auto;
 }
