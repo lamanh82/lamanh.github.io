@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: 1px solid black;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+    background-color: aquamarine;
+    z-index: 1;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+}
+
+.welcome {
+    margin: auto;
+    font-size: 30px;
+}
+
+button {
+    height: 30px;
+    margin-top: 10px;
+    background-color: palevioletred;
+    border-radius: 5px;
+}
+
+#logoutBtn {
+    margin-right: 40px;
+}
+
+#container {
+    border: 1px solid black;
+    position: relative;
+    top: 50px;
+    padding: 0 40px 40px 40px;
+}
+
+h3 {
+    margin-left: 10px;
+    text-justify:;
+}
+
+.table {
+    width: 100%;
+    display: table;
+    border: 1px solid black;
+}
+
+#resp-table-caption{
+    display: table-caption;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 40px 0 20px 0;
+}
+
+#resp-table-header{
+    display: table-header-group;
+    background-color: rgb(217, 212, 212);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.table-header-cell{
+    display: table-cell;
+    padding: 10px;
+    text-align: center;
+    border: 0.5px solid black;
+}
+
+#resp-table-body{
+    display: table-row-group;
+}
+
+.resp-table-row{
+    display: table-row;
+}
+
+.table-body-cell{
+    display: table-cell;
+    text-align: center;
+    border: 0.5px solid black;
+}
+
+.table-body-footer {
+    display: table-cell;
+    text-align: left;
+    border-bottom: 0.5px solid black;
+    border-top: 0.5px solid black;
+}
+
+#footer div:first-child {
+    border-left: 0.5px solid black;
+}
+
+#footer div:last-child {
+    border-right: 0.5px solid black;
+}
+
+.cart {
+    width: 20px;
+    height: 20px;
+}
+
+input {
+    margin: 5px;
+    width: 35px;
+    text-align: center;
+}
+
+#orderDiv {
+    text-align: right;
+    margin-top: 40px;
+}
+
+.quantitySp {
+    cursor: pointer;
+}

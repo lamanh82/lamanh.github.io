@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+</head>
+<body>
+    <div class="wrapper">
+        <div id="header">
+            <img id="logo" src="./images/sad.webp" alt="Logo">
+            <span class="welcome">Welcome, Tina</span>
+            <button id="logoutBtn">Logout</button>
+        </div>
+        <div id="container">
+            <div class="table">
+                <div id="resp-table-caption">
+                    Product List
+                </div>
+                <div id="resp-table-header">
+                    <div class="table-header-cell">
+                        Name
+                    </div>
+                    <div class="table-header-cell">
+                        Price
+                    </div>
+                    <div class="table-header-cell">
+                        Stock
+                    </div>
+                    <div class="table-header-cell">
+                        Action
+                    </div>
+                </div>
+                <div id="resp-table-body">
+                    <div class="resp-table-row">
+                        <div class="table-body-cell">
+                            Nodejs
+                        </div>
+                        <div class="table-body-cell">
+                            9.99
+                        </div>
+                        <div class="table-body-cell">
+                            8
+                        </div>
+                        <div class="table-body-cell">
+                            <img class="cart" src="./images/cart.svg" alt="Shopping Cart">
+                        </div>
+                    </div>
+                    <div class="resp-table-row">
+                        <div class="table-body-cell">
+                            React
+                        </div>
+                        <div class="table-body-cell">
+                            19.99
+                        </div>
+                        <div class="table-body-cell">
+                            5
+                        </div>
+                        <div class="table-body-cell">
+                            <img class="cart" src="./images/cart.svg" alt="Shopping Cart">
+                        </div>
+                    </div>
+                    <div class="resp-table-row">
+                        <div class="table-body-cell">
+                            Angular
+                        </div>
+                        <div class="table-body-cell">
+                            29.99
+                        </div>
+                        <div class="table-body-cell">
+                            13
+                        </div>
+                        <div class="table-body-cell">
+                            <img class="cart" src="./images/cart.svg" alt="Shopping Cart">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="table">
+                <div id="resp-table-caption">
+                    Your Shopping Cart
+                </div>
+                <div id="resp-table-header">
+                    <div class="table-header-cell">
+                        Name
+                    </div>
+                    <div class="table-header-cell">
+                        Price
+                    </div>
+                    <div class="table-header-cell">
+                        Total
+                    </div>
+                    <div class="table-header-cell">
+                        Quantity
+                    </div>
+                </div>
+                <div id="resp-table-body">
+                    <div class="resp-table-row">
+                        <div class="table-body-cell">
+                            Nodejs
+                        </div>
+                        <div class="table-body-cell">
+                            9.99
+                        </div>
+                        <div class="table-body-cell">
+                            9.99
+                        </div>
+                        <div class="table-body-cell">
+                            <span class="quantitySp">-</span>
+                            <input type="text" id="quanlity" value="1">
+                            <span class="quantitySp">+</span>
+                        </div>
+                    </div>
+                    <div class="resp-table-row">
+                        <div class="table-body-cell">
+                            Angular
+                        </div>
+                        <div class="table-body-cell">
+                            29.99
+                        </div>
+                        <div class="table-body-cell">
+                            290.99
+                        </div>
+                        <div class="table-body-cell">
+                            <span class="quantitySp">-</span>
+                            <input type="text" id="quanlity" value="10">
+                            <span class="quantitySp">+</span>
+                        </div>
+                    </div>
+                    <div id="footer" class="resp-table-row">
+                        <div class="table-body-footer">
+                        </div>
+                        <div class="table-body-footer">
+                        </div>
+                        <div class="table-body-footer">
+                        </div>
+                        <div class="table-body-footer">
+                            Total: 300.98
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="orderDiv"><button id="orderBtn">Place order</button></div>
+        </div>
+    </div>
+</body>
+</html>
