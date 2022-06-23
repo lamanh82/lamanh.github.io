@@ -1,0 +1,137 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    margin: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #95A9B1;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    width: 50%;
+    margin: 20px;
+}
+
+#header {
+    /* position: fixed; */
+    background-color: #95A9B1;
+    height: 50px;
+    /* justify-content: space-between; */
+    /* z-index: 1; */
+    /* width: 98%; */
+}
+
+ul
+{
+    font-family: Arial, Verdana;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li
+{
+    display: block;
+    position: relative;
+    float: left;
+}
+
+li ul
+{
+    display: none;
+}
+
+ul li a 
+{
+    display: block;
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;
+    margin-left: 1px;
+    white-space: nowrap;
+}
+
+li:hover ul 
+{
+    display: block;
+    position: absolute;
+}
+
+li:hover li
+{
+    float: none;
+    font-size: 18px;
+}
+
+.submenu {
+    background-color: #95A9B1;
+}
+
+.submenu:hover 
+{
+    background: #21617d;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.content > div {
+    margin: 15px;
+    height: 30px;
+}
+
+.registerLnk {
+    font-size: 18px;
+}
+
+input, textarea, select {
+    width: 50%;
+    font-size: 15px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box; 
+}
+
+label {
+    display: inline-block;
+    width: 40%;
+    font-size: 18px;
+    vertical-align: top;
+}
+
+#textareaField {
+    height: 100px;
+}
+
+.mandatory {
+    color: red;
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+#footer {
+    text-align: center;
+    background-color: gainsboro;
+    height: 50px;
+    vertical-align: middle;
+}
+
+input[type="submit"], input[type="reset"] {
+    width: 100px;
+    height: 30px;
+    background-color: #95A9B1;
+    border: none;
+    margin-top: 10px;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop Registration</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+</head>
+<body>
+    <div class="wrapper">
+        <div id="header">
+            <ul id="menu">
+                <li><a href="">Workshop Registration</a></li>
+                <li><a class="more" href="">More Actions <img class="icon" src="./images/down.svg"></a>
+                  <ul>
+                  <li><a class="submenu" href="">About Us</a></li>
+                  <li><a class="submenu" href="">Contact</a></li>
+                  <li><a class="submenu" href="">Something Else</a></li>
+                  </ul>
+                </li>
+            </ul>
+        </div>
+        <form action="#" method="post">
+            <div id="container">
+                <div class="content">
+                    <div><a class="registerLnk" href="#">Register now while seats are available!</a></div>
+                    <div><label for="firstname">First Name <span class="mandatory">*</span></label><input type="text" name="firstname" required></div>
+                    <div><label for="lastname">Last Name <span class="mandatory">*</span></label><input type="text" name="lastname" required></div>
+                    <div><label for="company">Company/Institution <span class="mandatory">*</span></label><input type="text" name="company" required></div>
+                    <div id="textareaField"><label for="address">Address <span class="mandatory">*</span></label><textarea name="address" rows="5" required></textarea></div>
+                    <div><label for="city">City</label><input type="text" name="city"></div>
+                    <div><label for="stateDrp">State/Province/Region</label><select name="stateDrp">
+                            <option value="0">-Select-</option>
+                            <option value="1">Iowa</option>
+                            <option value="2">Texas</option>
+                        </select>
+                    </div>
+                    <div><label for="country">Country</label><select name="country">
+                            <option value="0">-Select-</option>
+                            <option value="1">US</option>
+                            <option value="2">Vietnam</option>
+                        </select>
+                    </div>
+                    <div><label for="email">Email <span class="mandatory">*</span></label><input type="email" name="email" pattern="[a-z0-9._+\- ]+@[a-z0-9.\-]+\.[a-z]{2,3}" title="Format: [a-z0-9._+\- ]+@[a-z0-9.\-]+\.[a-z]{2,3}" required></div>
+                    <div><label for="phone">Phone Number <span class="mandatory">*</span></label><input type="tel" name="phone" pattern="[0-9]{3}-?[0-9]{3}-?[0-9]{4}" title="Format: [0-9]{3}-?[0-9]{3}-?[0-9]{4}" required></div>
+                </div>
+                <div class="content">
+                    <div><a class="registerLnk" href="#">Lunch</a></div>
+                    <div>
+                        <label for="mealDrp">Meal Preference</label>
+                        <select name="meal">
+                            <option value="0">--Select--</option>
+                            <option value="1">Vegetarian</option>
+                            <option value="2">Diet</option>
+                        </select>
+                    </div>
+                    <div><a class="registerLnk" href="#">Payment Details</a></div>
+                    <div><label>Payment Mode</label><input type="checkbox" name="payment" id="cash" /><label for="cash">Cash</label></div>
+                    <div><label></label><input type="checkbox" name="payment" id="cheque" /><label for="cheque">Cheque</label></div>
+                    <div><label></label><input type="checkbox" name="payment" id="demand" /><label for="demand">Demand Draft</label></div>
+                    <div><label for="ddno">DD/Cheque No.</label><input type="text" name="ddno"></div>
+                    <div><label for="drawn">Drawn on (Bank Name)</label><input type="text" name="drawn"></div>
+                    <div><label for="payable">Payable at</label><input type="text" name="payable"></div>
+                </div>
+            
+            </div>
+         
+            <div id="footer">
+                <input type="submit">
+                <input type="reset" >
+            </div>
+        </form>
+    </div>
+</body>
+</html>
