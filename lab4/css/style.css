@@ -134,4 +134,5 @@ input[type="submit"], input[type="reset"] {
     background-color: #95A9B1;
     border: none;
     margin-top: 10px;
+    color: white;
 }
