@@ -13,6 +13,7 @@ body {
 #container {
     display: flex;
     flex-direction: row;
+    margin-top: 50px;
 }
 
 .content {
@@ -21,12 +22,12 @@ body {
 }
 
 #header {
-    /* position: fixed; */
+    position: fixed;
     background-color: #95A9B1;
     height: 50px;
-    /* justify-content: space-between; */
-    /* z-index: 1; */
-    /* width: 98%; */
+    justify-content: space-between;
+    z-index: 1;
+    width: calc(100% - 40px);
 }
 
 ul
