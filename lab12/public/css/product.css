@@ -1,0 +1,8 @@
+body {
+    background-color: bisque;
+}
+
+ul li {
+    display: inline;
+    border: 1px solid blue;
+}
